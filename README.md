@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://telegra.ph/file/66aa807d148a9bdadf260.jpg">
+  <img src="https://telegra.ph/file/9715cfcf224238672fea0.jpg">
 </p>
 
 #『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』[🇮🇳]『 𝐁𝐑𝐎𝐊𝐄𝐍 』
