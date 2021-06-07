@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʟʟᴏ [🤗](https://telegra.ph/file/66aa807d148a9bdadf260.jpg), ɪᴍ ᴋʀɪsᴛɪɴᴀ ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
+ʜᴇʟʟᴏ [😈](https://telegra.ph/file/0936e8076069a99e824fc.jpg), ɪᴍ 『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』[🇮🇳]『 𝐁𝐑𝐎𝐊𝐄𝐍 』 ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ ᴋʀɪsᴛɪɴᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/MISS_KRISTINA_BOT?startgroup=true"),
+            text="➕️ ᴀᴅᴅ 『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』[🇮🇳]『 𝐁𝐑𝐎𝐊𝐄𝐍 』 ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/soulmate_opbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="yone_"),
@@ -96,13 +96,13 @@ buttons = [
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` [ᴋʀɪsᴛɪɴᴀ🙋‍♀️](https://telegra.ph/file/66aa807d148a9bdadf260.jpg) 
+`ʜɪ.. ɪ'ᴍ` [『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』[🇮🇳]『 𝐁𝐑𝐎𝐊𝐄𝐍 』](https://telegra.ph/file/08ff403f2a4acc7db3a7c.jpg) 
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
-yone_IMG = "https://telegra.ph/file/66aa807d148a9bdadf260.jpg"
+yone_IMG = "https://telegra.ph/file/0936e8076069a99e824fc.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @DIPESH_XD \
+ You can support the project via [Paypal](#) or by contacting @UNKNOWN_SOULMATE \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -349,14 +349,14 @@ def yone_about_callback(update, context):
     query = update.callback_query
     if query.data == "yone_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *ᴋʀɪsᴛɪɴᴀ*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』[🇮🇳]『 𝐁𝐑𝐎𝐊𝐄𝐍 』*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
                  \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_ᴋʀɪsᴛɪɴᴀ's licensed under the GNU General Public License v3.0_
+                 \n\n_『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』[🇮🇳]『 𝐁𝐑𝐎𝐊𝐄𝐍 』's licensed under the GNU General Public License v3.0_
                  \nHere is the [💾Repository](https://t.me/KristinaSupportGroup/40).
                  \n\nIf you have any question about yone, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
@@ -384,7 +384,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *ᴋʀɪsᴛɪɴᴀ*
+            text=""" Hi..🤗 I'm *『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』[🇮🇳]『 𝐁𝐑𝐎𝐊𝐄𝐍 』*
                  \nHere is the [Source Code](https://t.me/KristinaSupportGroup/40) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
