@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʟʟᴏ [😈](https://telegra.ph/file/0936e8076069a99e824fc.jpg), ɪᴍ 『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』[🇮🇳]『 𝐁𝐑𝐎𝐊𝐄𝐍 』 ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
+ʜᴇʟʟᴏ [😈](https://telegra.ph/file/77a16a48e66788d5ab77e.mp4), ɪᴍ 『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』[🇮🇳]『 𝐁𝐑𝐎𝐊𝐄𝐍 』 ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help   
 """
 
@@ -99,7 +99,7 @@ HELP_STRINGS = """
 `ʜɪ.. ɪ'ᴍ` [『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』[🇮🇳]『 𝐁𝐑𝐎𝐊𝐄𝐍 』] 
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
-yone_IMG = "https://telegra.ph/file/0936e8076069a99e824fc.jpg"
+yone_IMG = "https://telegra.ph/file/88a508491f343d8e80883.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @UNKNOWN_SOULMATE \
