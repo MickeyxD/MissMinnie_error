@@ -67,3 +67,9 @@ nudepy
 motor
 cloudscraper
 Ffmpeg
+
+
+#ImageEditor
+glitch_this
+NumPy
+opencv-python-headless
