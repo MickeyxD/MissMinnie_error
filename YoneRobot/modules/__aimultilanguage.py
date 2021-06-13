@@ -2,8 +2,8 @@ import re
 
 import emoji
 
-IBM_WATSON_CRED_URL = "https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/bd6b59ba-3134-4dd4-aff2-49a79641ea15"
-IBM_WATSON_CRED_PASSWORD = "UQ1MtTzZhEsMGK094klnfa-7y_4MCpJY1yhd52MXOo3Y"
+IBM_WATSON_CRED_URL = "https://api.eu-gb.speech-to-text.watson.cloud.ibm.com/instances/5febbb35-7cdb-45af-9456-90c268729731"
+IBM_WATSON_CRED_PASSWORD = "TbeVIvhnoodgIra75U35Mzv16wuHPI2e9dSzFk4TNifX"
 url = "https://acobot-brainshop-ai-v1.p.rapidapi.com/get"
 import re
 
