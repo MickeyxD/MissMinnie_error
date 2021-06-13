@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʟʟᴏ [😈](https://telegra.ph/file/77a16a48e66788d5ab77e.mp4), ɪᴍ 『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』[🇮🇳]『 𝐁𝐑𝐎𝐊𝐄𝐍 』 ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
+ʜᴇʟʟᴏ [🤗](https://telegra.ph/file/a25e723478ad541a6c960.jpg), ɪᴍ 『ᏫᎮ』ᴤᴏᴜʟᴍᴀᴛᴇ ×͜× ʙᴏᴛ™ [🇮🇳] ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ 『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』[🇮🇳]『 𝐁𝐑𝐎𝐊𝐄𝐍 』 ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/soulmate_opbot?startgroup=true"),
+            text="➕️ ᴀᴅᴅ 『 『ᏫᎮ』ᴤᴏᴜʟᴍᴀᴛᴇ ×͜× ʙᴏᴛ™ [🇮🇳] ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/soulmate_opbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="yone_"),
@@ -96,10 +96,10 @@ buttons = [
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` [『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』[🇮🇳]『 𝐁𝐑𝐎𝐊𝐄𝐍 』] 
+`ʜɪ.. 🙋 ɪ'ᴍ` [『ᏫᎮ』ᴤᴏᴜʟᴍᴀᴛᴇ ×͜× ʙᴏᴛ™ [🇮🇳]] 
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
-yone_IMG = "https://telegra.ph/file/88a508491f343d8e80883.jpg"
+yone_IMG = "https://telegra.ph/file/a25e723478ad541a6c960.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @UNKNOWN_SOULMATE \
@@ -349,15 +349,15 @@ def yone_about_callback(update, context):
     query = update.callback_query
     if query.data == "yone_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』[🇮🇳]『 𝐁𝐑𝐎𝐊𝐄𝐍 』*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *『ᏫᎮ』ᴤᴏᴜʟᴍᴀᴛᴇ ×͜× ʙᴏᴛ™ [🇮🇳]*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
                  \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』[🇮🇳]『 𝐁𝐑𝐎𝐊𝐄𝐍 』's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://t.me/soulmate_bot_2).
+                 \n\n_『ᏫᎮ』ᴤᴏᴜʟᴍᴀᴛᴇ ×͜× ʙᴏᴛ™ [🇮🇳]'s licensed under the GNU General Public License v3.0_
+                 \nHere is the [💾Repository](https://t.me/soulmate_bot_l).
                  \n\nIf you have any question about yone, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -384,8 +384,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』[🇮🇳]『 𝐁𝐑𝐎𝐊𝐄𝐍 』*
-                 \nHere is the [Source Code](https://t.me/soulmate_bot_2) .""",
+            text=""" Hi..🤗 I'm *『ᏫᎮ』ᴤᴏᴜʟᴍᴀᴛᴇ ×͜× ʙᴏᴛ™ [🇮🇳]*
+                 \nHere is the [Source Code](https://t.me/soulmate_bot_l) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -680,7 +680,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 😹")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I'm alive my master  👨‍💻")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
