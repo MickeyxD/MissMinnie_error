@@ -81,7 +81,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ 『 『ᏫᎮ』ᴤᴏᴜʟᴍᴀᴛᴇ ×͜× ʙᴏᴛ™ [🇮🇳] ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/soulmate_opbot?startgroup=true"),
+            text="➕️ ᴀᴅᴅ ᴤᴏᴜʟᴍᴀᴛᴇ ×͜× ʙᴏᴛ™ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/soulmate_opbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="yone_"),
