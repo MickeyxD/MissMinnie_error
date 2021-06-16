@@ -100,7 +100,7 @@ async def drawText(image_path, text):
 
     else:
 
-        fnt = "./YoneRobot/resources/Vampire_Wars.ttf"
+        fnt = "./YoneRobot/resources/Maghrib.ttf"
 
     m_font = ImageFont.truetype(fnt, int((70 / 640) * i_width))
 
